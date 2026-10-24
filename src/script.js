@@ -18,13 +18,14 @@
 // HELPER: UNIVERSAL DATA FETCHER (Fallback Bertingkat & Embedded Array)
 // ============================================================================
 async function fetchPesantrenData(fileName, fallbackEmbeddedData) {
+  const baseUrl = import.meta.env.BASE_URL || './';
+  
   const urls = [
+    `${baseUrl}data/${fileName}`,
+    `${baseUrl}src/data/${fileName}`,
     `./data/${fileName}`,
-    `./data/${fileName}`,
-    `./src/data/${fileName}`,
     `./src/data/${fileName}`
   ];
-
   for (const url of urls) {
     try {
       const response = await fetch(url);
