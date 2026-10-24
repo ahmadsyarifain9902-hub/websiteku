@@ -1,0 +1,96 @@
+{
+  "tahun_ajaran": "2026/2027",
+  "tagline": "Penerimaan Peserta Didik Baru (PPDB)",
+  "judul": "Wujudkan Impian Generasi Qur'ani, Berakhlak Mulia & Berprestasi Global",
+  "deskripsi": "Pesantren Pendidikan Islam Darul Abrar membuka pendaftaran santri baru jenjang MTs (Tingkat Menengah) dan MA Plus Tahfidz (Tingkat Aliyah). Kuota terbatas untuk memastikan rasio bimbingan asatidz yang intensif.",
+  "hotline_wa": "0859-3946-3834",
+  "hotline_telp": "(021) 7890-1234",
+  "link_daftar_online": "https://santri.darulabrar.sch.id/ppdb",
+  "link_unduh_brosur": "#unduh-brosur",
+  "gelombang": [
+    {
+      "id": 1,
+      "nama": "Gelombang I (Jalur Prestasi & Tahfidz)",
+      "periode": "01 Nov 2026 - 31 Des 2026",
+      "status": "Sedang Dibuka",
+      "status_badge": "bg-emerald-500 text-white",
+      "is_active": true,
+      "keuntungan": "Bebas Uang Pangkal 50% bagi Tahfidz min. 5 Juz & Juara OSN/KSM",
+      "kuota": "Tersisa 45 Kursi Santri"
+    },
+    {
+      "id": 2,
+      "nama": "Gelombang II (Jalur Reguler Tahap 1)",
+      "periode": "01 Jan 2027 - 28 Feb 2027",
+      "status": "Segera Dibuka",
+      "status_badge": "bg-blue-600 text-white",
+      "is_active": false,
+      "keuntungan": "Prioritas pemilihan kamar asrama dan tes seleksi terpadu",
+      "kuota": "Kuota Tersedia: 120 Santri"
+    },
+    {
+      "id": 3,
+      "nama": "Gelombang III (Jalur Reguler Tahap 2)",
+      "periode": "01 Mar 2027 - 30 Apr 2027",
+      "status": "Akan Datang",
+      "status_badge": "bg-slate-400 text-white",
+      "is_active": false,
+      "keuntungan": "Pengisian sisa kuota jika masih tersedia",
+      "kuota": "Sisa Kuota Terbatas"
+    }
+  ],
+  "persyaratan": [
+    {
+      "nomor": "01",
+      "judul": "Formulir Pendaftaran",
+      "detail": "Mengisi data diri calon santri dan wali secara online di portal resmi PPDB Pesantren."
+    },
+    {
+      "nomor": "02",
+      "judul": "Akta & Kartu Keluarga",
+      "detail": "Fotokopi Akta Kelahiran dan Kartu Keluarga (KK) masing-masing sebanyak 3 lembar."
+    },
+    {
+      "nomor": "03",
+      "judul": "Ijazah & Rapor Sekolah",
+      "detail": "Fotokopi Ijazah/SKL berlegalisir serta fotokopi rapor 3 semester terakhir dari sekolah asal."
+    },
+    {
+      "nomor": "04",
+      "judul": "Pas Foto Formal",
+      "detail": "Pas foto santri ukuran 3x4 (4 lembar) dan 4x6 (4 lembar) dengan baju putih berkopiah/berjilbab."
+    },
+    {
+      "nomor": "05",
+      "judul": "Surat Keterangan Sehat",
+      "detail": "Surat keterangan sehat jasmani, bebas penyakit menular, dan bebas narkoba dari Rumah Sakit/Puskesmas."
+    },
+    {
+      "nomor": "06",
+      "judul": "Sertifikat Prestasi (Opsional)",
+      "detail": "Piagam kejuaraan minimal tingkat kabupaten atau syahadah tahfidz Al-Qur'an (khusus Jalur Beasiswa)."
+    }
+  ],
+  "alur": [
+    {
+      "langkah": "1",
+      "judul": "Pendaftaran Online",
+      "deskripsi": "Buat akun calon santri di portal PPDB dan bayar biaya registrasi seleksi."
+    },
+    {
+      "langkah": "2",
+      "judul": "Unggah Dokumen",
+      "deskripsi": "Scan dan unggah berkas persyaratan melalui dashboard akun santri."
+    },
+    {
+      "langkah": "3",
+      "judul": "Ujian Seleksi",
+      "deskripsi": "Tes bacaan Al-Qur'an, potensi akademik, psikotes, dan wawancara orang tua."
+    },
+    {
+      "langkah": "4",
+      "judul": "Daftar Ulang",
+      "deskripsi": "Pengumuman hasil seleksi dan penyelesaian administrasi seragam serta asrama."
+    }
+  ]
+}

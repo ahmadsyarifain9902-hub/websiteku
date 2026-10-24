@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "judul": "Juara 1 Musabaqah Hifdzil Qur'an 30 Juz Tingkat Internasional",
+    "kategori": "Tahfidz & Keagamaan",
+    "deskripsi_singkat": "Santri Muhammad Raihan Al-Fatih meraih predikat Mumtaz dan Juara 1 pada ajang International Holy Quran Competition di Istanbul, mengharumkan nama Indonesia di hadapan 45 negara peserta.",
+    "gambar_url": "https://images.unsplash.com/photo-1609599006353-e629aaabfeae?auto=format&fit=crop&w=1200&q=80",
+    "link_detail": "#prestasi"
+  },
+  {
+    "id": 2,
+    "judul": "Medali Emas Olimpiade Sains Nasional (OSN) Bidang Astronomi & Astrofisika",
+    "kategori": "Sains & Teknologi",
+    "deskripsi_singkat": "Mengintegrasikan ilmu hisab falakiyah klasik dengan astrofisika modern, santri Darul Abrar menduduki peringkat pertama nasional.",
+    "gambar_url": "https://images.unsplash.com/photo-1507668077129-56e32842fceb?auto=format&fit=crop&w=1200&q=80",
+    "link_detail": "#prestasi"
+  },
+  {
+    "id": 3,
+    "judul": "Juara Umum Musabaqah Qira'atil Kutub (MQK) Tingkat Nasional",
+    "kategori": "Kutubut Turats",
+    "deskripsi_singkat": "Menguasai pembacaan dan pembedahan kitab kuning Fathul Qarib, Ihya Ulumiddin, dan Alfiyah Ibnu Malik dengan pemahaman komprehensif.",
+    "gambar_url": "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?auto=format&fit=crop&w=1200&q=80",
+    "link_detail": "#prestasi"
+  },
+  {
+    "id": 4,
+    "judul": "Juara 1 Lomba Debat Bahasa Arab (Munadharah Lughawiyyah) Antar Kampus",
+    "kategori": "Kebahasaan",
+    "deskripsi_singkat": "Menunjukkan kefasihan retorika fusha dan argumentasi filosofis syariat pada kompetisi debat bergengsi se-Asia Tenggara.",
+    "gambar_url": "https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&w=1200&q=80",
+    "link_detail": "#prestasi"
+  },
+  {
+    "id": 5,
+    "judul": "Juara 1 Kaligrafi Seni Mushaf Al-Qur'an Tingkat Provinsi",
+    "kategori": "Seni Kaligrafi",
+    "deskripsi_singkat": "Karya iluminasi mushaf santri dengan teknik zafaran dan tinta handam meraih penghargaan karya seni estetika terbaik dewan juri.",
+    "gambar_url": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=1200&q=80",
+    "link_detail": "#prestasi"
+  },
+  {
+    "id": 6,
+    "judul": "Juara 1 Kejuaraan Nasional Pencak Silat Tapak Suci Piala Menpora",
+    "kategori": "Bela Diri",
+    "deskripsi_singkat": "Pendekar santri menyapu bersih 3 medali emas kategori tanding kelas tanding remaja dan seni tunggal bersenjata.",
+    "gambar_url": "https://images.unsplash.com/photo-1555597673-b21d5c935865?auto=format&fit=crop&w=1200&q=80",
+    "link_detail": "#prestasi"
+  },
+  {
+    "id": 7,
+    "judul": "Penghargaan Pesantren Ramah Lingkungan & Eco-Pesantren Award",
+    "kategori": "Inovasi Lingkungan",
+    "deskripsi_singkat": "Pengelolaan air wudhu daur ulang, instalasi panel surya mandiri, dan bank sampah organik santri diapresiasi Kementerian Agama.",
+    "gambar_url": "https://images.unsplash.com/photo-1510312305653-8ed496efae75?auto=format&fit=crop&w=1200&q=80",
+    "link_detail": "#prestasi"
+  }
+]

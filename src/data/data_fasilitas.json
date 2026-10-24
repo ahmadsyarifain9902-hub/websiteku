@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "judul": "Masjid Agung Al-Abrar",
+    "kategori": "Ibadah & Spiritual",
+    "deskripsi_singkat": "Pusat peribadahan dan halaqah Al-Qur'an berkapasitas 2.500 jamaah dengan arsitektur Timur Tengah modern berhawa sejuk.",
+    "deskripsi_lengkap": "Masjid Agung Al-Abrar merupakan jantung spiritual pesantren. Dilengkapi karpet tebal berkualitas tinggi, sistem tata suara akustik mutakhir, pendingin ruangan sentral ramah lingkungan, serta mezzanine khusus santriwati. Setiap hari menjadi tempat shalat berjamaah 5 waktu, qiyamul lail terpadu, dan kajian kitab kuning ba'da Shubuh & Maghrib.",
+    "gambar_url": "https://images.unsplash.com/photo-1584551246679-0daf3d275d0f?q=80&w=1200&auto=format&fit=crop",
+    "spesifikasi": [
+      { "label": "Kapasitas", "nilai": "2.500 Jamaah" },
+      { "label": "Fasilitas Audio", "nilai": "Line Array JBL & Akustik Terbina" },
+      { "label": "Area Santriwati", "nilai": "Mezzanine Lantai 2 Khusus" },
+      { "label": "Operasional", "nilai": "24 Jam Terbuka untuk Ibadah" }
+    ],
+    "tag_highlight": "Pusat Spiritual"
+  },
+  {
+    "id": 2,
+    "judul": "Asrama Santri Terpadu & Higienis",
+    "kategori": "Hunian & Asrama",
+    "deskripsi_singkat": "Asrama bertingkat dengan sirkulasi udara optimal, ranjang kayu ergonomis, loker pribadi, dan pengawasan musyrif 24 jam.",
+    "deskripsi_lengkap": "Kompleks asrama santri putra dan putri dibangun terpisah dengan pagar pembatas asri dan sistem keamanan terpadu. Setiap kamar dihuni 6-8 santri didampingi seorang musyrif (pembina kamar) alumni Timur Tengah. Dilengkapi loker pribadi dengan kunci aman, ventilasi silang alami, area jemur higienis, serta sanitasi modern yang senantiasa bersih.",
+    "gambar_url": "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?q=80&w=1200&auto=format&fit=crop",
+    "spesifikasi": [
+      { "label": "Kapasitas Total", "nilai": "1.200 Santri (Putra & Putri Terpisah)" },
+      { "label": "Pembina Kamar", "nilai": "1 Musyrif per Kamar (24 Jam)" },
+      { "label": "Sirkulasi Udara", "nilai": "Cross-Ventilation Alami & Kipas" },
+      { "label": "Air Bersih", "nilai": "Sumur Artesis Bor Terfiltrasi" }
+    ],
+    "tag_highlight": "Kenyamanan Santri"
+  },
+  {
+    "id": 3,
+    "judul": "Perpustakaan & Maktabah Digital",
+    "kategori": "Literasi & Riset",
+    "deskripsi_singkat": "Koleksi lebih dari 15.000 judul kitab kuning klasik, literatur Islam kontemporer, ensiklopedia umum, dan akses e-library internasional.",
+    "deskripsi_lengkap": "Maktabah Darul Abrar memadukan khazanah keilmuan Islam turats dengan kemudahan teknologi informasi. Tersedia ruang baca nyaman beralaskan karpet lembut, bilik riset ber-AC, serta katalog komputer terintegrasi untuk pencarian kitab hadits, tafsir, fiqih 4 madzhab, hingga jurnal ilmiah sains dan humaniora.",
+    "gambar_url": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?q=80&w=1200&auto=format&fit=crop",
+    "spesifikasi": [
+      { "label": "Jumlah Koleksi", "nilai": "15.000+ Eksemplar Kitab & Buku" },
+      { "label": "Sistem Katalog", "nilai": "OPAC Digital & E-Reader Tablet" },
+      { "label": "Ruang Riset", "nilai": "Full AC, Beralaskan Karpet Permadani" },
+      { "label": "Akses Jurnal", "nilai": "Langganan Jurnal Kajian Islam Global" }
+    ],
+    "tag_highlight": "Khazanah Ilmu"
+  },
+  {
+    "id": 4,
+    "judul": "Laboratorium Komputer & Bahasa Digital",
+    "kategori": "Teknologi & Bahasa",
+    "deskripsi_singkat": "Laboratorium multimedia 60 unit PC berkecepatan tinggi untuk pembelajaran coding, desain grafis, dan tes TOEFL/TOAFL.",
+    "deskripsi_lengkap": "Pusat pengembangan literasi digital santri. Dilengkapi perangkat komputer modern, headset isolasi suara untuk kursus audio bahasa Arab (Nathiqiyyah) dan bahasa Inggris, serta software coding Python & Web Development. Membekali santri agar melek teknologi tanpa kehilangan akar nilai kepesantrenan.",
+    "gambar_url": "https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=1200&auto=format&fit=crop",
+    "spesifikasi": [
+      { "label": "Jumlah Unit", "nilai": "60 Unit PC Workstation Core i7" },
+      { "label": "Konektivitas", "nilai": "Dedicated Fiber Optic 200 Mbps" },
+      { "label": "Fasilitas Audio", "nilai": "Noise-Cancelling Headset Lab Bahasa" },
+      { "label": "Software Lab", "nilai": "Lisensi Microsoft, Adobe & Python Dev" }
+    ],
+    "tag_highlight": "Era Digital"
+  },
+  {
+    "id": 5,
+    "judul": "Laboratorium Sains Terpadu (IPA)",
+    "kategori": "Sains & Inovasi",
+    "deskripsi_singkat": "Fasilitas praktikum Fisika, Kimia, dan Biologi lengkap dengan mikroskop binokuler digital serta peralatan uji coba sains modern.",
+    "deskripsi_lengkap": "Sarana eksplorasi ilmu alam yang mengantarkan santri meraih berbagai medali Olimpiade Sains Nasional (OSN). Memiliki alat peraga anatomi lengkap, lemari asam kimia berstandar keselamatan laboratorium, teleskop astronomi untuk pengamatan hisab & rukyat hilal, serta modul mikrokontroler robotika santri.",
+    "gambar_url": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?q=80&w=1200&auto=format&fit=crop",
+    "spesifikasi": [
+      { "label": "Kapasitas Sesi", "nilai": "40 Santri per Kelompok Praktikum" },
+      { "label": "Instrumen Khusus", "nilai": "Teleskop Astronomi Falakiyah & Mikroskop Digital" },
+      { "label": "Standar Keamanan", "nilai": "Safety Shower, Eye-Washer & Lemari Asam" },
+      { "label": "Output Prestasi", "nilai": "Pusat Pembinaan Juara KSM & OSN" }
+    ],
+    "tag_highlight": "Riset & Sains"
+  },
+  {
+    "id": 6,
+    "judul": "Klinik Santri & Poskestren 24 Jam",
+    "kategori": "Kesehatan & Medis",
+    "deskripsi_singkat": "Layanan kesehatan siaga 24 jam dengan dokter visit, perawat berlisensi, ruang rawat inap sementara, dan armada ambulans darurat.",
+    "deskripsi_lengkap": "Pos Kesehatan Pesantren (Poskestren) Darul Abrar bekerja sama dengan Rumah Sakit Islam rujukan kota. Menyediakan pemeriksaan berkala kesehatan & gizi santri, persediaan obat-obatan esensial, nebulizer untuk asma, ruang isolasi medis nyaman, serta ambulans siaga 24 jam untuk rujukan darurat.",
+    "gambar_url": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=1200&auto=format&fit=crop",
+    "spesifikasi": [
+      { "label": "Layanan Medis", "nilai": "24 Jam Non-stop (Dokter & Perawat Jaga)" },
+      { "label": "Ruang Rawat", "nilai": "8 Bed Observasi Ber-AC (Putra & Putri)" },
+      { "label": "Tanggap Darurat", "nilai": "Ambulans Siaga Pesantren Standar Medis" },
+      { "label": "Program Preventif", "nilai": "Pemeriksaan Tumbuh Kembang & Gigi Santri Berkala" }
+    ],
+    "tag_highlight": "Siaga Medis"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "nama": "Muhammad Raihan Fadhil",
+    "status": "Alumni Angkatan 2022",
+    "info_tambahan": "Mahasiswa Fakultas Syariah Al-Azhar Kairo & Hafidz 30 Juz",
+    "asal": "Bandung, Jawa Barat",
+    "foto_url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=600&auto=format&fit=crop",
+    "kutipan": "Belajar 6 tahun di Pesantren Darul Abrar bukan sekadar menghafal Al-Qur'an dan kitab kuning, tetapi menanamkan adab, kemandirian hidup, dan cara berpikir terbuka. Fondasi bahasa Arab di sini sangat mempermudah saya saat kuliah di Universitas Al-Azhar Mesir.",
+    "rating": 5
+  },
+  {
+    "id": 2,
+    "nama": "Siti Sarah Nurhaliza",
+    "status": "Alumni Angkatan 2021",
+    "info_tambahan": "Mahasiswi Pendidikan Dokter Universitas Indonesia (UI)",
+    "asal": "Jakarta Selatan",
+    "foto_url": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=600&auto=format&fit=crop",
+    "kutipan": "Banyak orang mengira anak pesantren sulit masuk Fakultas Kedokteran di PTN top. Di Darul Abrar, laboratorium sainsnya luar biasa lengkap dan asatidz sangat suportif dalam membimbing olimpiade sains dan persiapan UTBK. Berkah ilmu pesantren sangat terasa!",
+    "rating": 5
+  },
+  {
+    "id": 3,
+    "nama": "Farhan Daniswara",
+    "status": "Alumni Angkatan 2020",
+    "info_tambahan": "Software Engineer & Penerima Beasiswa Turkiye Burslari",
+    "asal": "Surabaya, Jawa Timur",
+    "foto_url": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=600&auto=format&fit=crop",
+    "kutipan": "Laboratorium komputer dan program coding di pesantren memberikan saya bekal masa depan. Jiwa kepemimpinan yang dilatih lewat organisasi santri dan Tapak Suci menjadikan saya pribadi yang tangguh menghadapi persaingan teknologi di kancah internasional.",
+    "rating": 5
+  },
+  {
+    "id": 4,
+    "nama": "Aisyah Humaira Putri",
+    "status": "Santriwati Kelas XII MA",
+    "info_tambahan": "Juara 1 Musabaqah Qira'atil Kutub (MQK) Tingkat Nasional",
+    "asal": "Medan, Sumatera Utara",
+    "foto_url": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=600&auto=format&fit=crop",
+    "kutipan": "Lingkungan asrama yang hangat dan bimbingan musyrifah yang sabar membuat pesantren terasa seperti rumah kedua. Halaqah qur'an ba'da shubuh dan muhadharah 3 bahasa melatih kepercayaan diri saya untuk berbicara di depan ribuan orang.",
+    "rating": 5
+  },
+  {
+    "id": 5,
+    "nama": "Zulhilmi Al-Bantani",
+    "status": "Alumni Angkatan 2023",
+    "info_tambahan": "Pengusaha Muda Santri & Hafidz Mutqin",
+    "asal": "Serang, Banten",
+    "foto_url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=600&auto=format&fit=crop",
+    "kutipan": "Di pesantren kami diajarkan konsep barakah dan integritas wirausaha. Kedisiplinan bangun sebelum subuh dan manajemen waktu yang ketat membentuk mental tangguh yang sangat berharga dalam membangun bisnis rintisan saat ini.",
+    "rating": 5
+  },
+  {
+    "id": 6,
+    "nama": "Nurul Izzah Maulida",
+    "status": "Alumni Angkatan 2022",
+    "info_tambahan": "Penerima Beasiswa S1 Hubungan Internasional UGM",
+    "asal": "Yogyakarta",
+    "foto_url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=600&auto=format&fit=crop",
+    "kutipan": "Program English Debate Club dan Muhadatsah Arab di Darul Abrar benar-benar hidup. Kami dibiasakan berbahasa asing setiap hari tanpa canggung. Terima kasih pondok pesantren atas pendidikan karakter mulia dan wawasan luas yang tak ternilai.",
+    "rating": 5
+  }
+]

@@ -1,0 +1,1284 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pesantren Darul Abrar - Website Resmi</title>
+  <meta name="description" content="Website resmi Pesantren Pendidikan Islam Darul Abrar dengan fitur lengkap Fasilitas Pesantren, Prestasi Santri, Berita Terbaru, PPDB Online, dan Testimoni Santri." />
+  <meta property="og:title" content="Pesantren Darul Abrar - Website Resmi" />
+  <meta property="og:description" content="Website resmi Pesantren Pendidikan Islam Darul Abrar: Fasilitas, Prestasi, Berita Terbaru, PPDB Online, dan Testimoni Santri." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Google Fonts: Plus Jakarta Sans & Amiri -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS v4 Stylesheet -->
+  <link rel="stylesheet" href="/dist/output.css" />
+  
+  <style>
+    :root {
+      --color-pesantren-primary: #0072CE;
+      --color-pesantren-accent: #DAA520;
+      --color-pesantren-bg: #f8faf9;
+      --color-pesantren-dark: #1E293B;
+    }
+    body {
+      font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    }
+    .font-arabic {
+      font-family: 'Amiri', serif;
+    }
+  </style>
+</head>
+<body class="bg-[#f8faf9] text-[#1E293B] antialiased min-h-screen selection:bg-[#0072CE] selection:text-white flex flex-col">
+
+  <!-- ========================================================================= -->
+  <!-- NAVBAR WEBSITE PESANTREN (STICKY, LOGO & RESPONSIVE MOBILE MENU)          -->
+  <!-- ========================================================================= -->
+  <header class="w-full bg-white/95 backdrop-blur-md border-b border-slate-200 sticky top-0 z-40 shadow-xs">
+    <nav class="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        
+        <!-- Sisi Kiri: Logo Pesantren & Nama Pesantren Horizontal -->
+        <a href="#beranda" class="flex items-center space-x-3.5 group">
+          <div class="h-12 w-12 rounded-2xl bg-gradient-to-br flex items-center justify-center text-white shadow-md shadow-[#0072CE]/20 transition-transform duration-300 group-hover:scale-105 overflow-hidden">
+            <!-- <svg class="w-7 h-7 text-[#DAA520]" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+            </svg> -->
+            <img src="src/img/logo_DA.png">
+          </div>
+          <div class="flex flex-col">
+            <span class="text-base sm:text-lg font-extrabold text-[#0072CE] tracking-tight group-hover:text-blue-900 transition-colors leading-tight">
+              Pesantren Darul Abrar
+            </span>
+            <span class="text-[11px] font-semibold text-slate-500 tracking-wider uppercase">
+              Menuju Generasi Qur'ani
+            </span>
+          </div>
+        </a>
+
+        <!-- Menu Navigasi Desktop & Tablet -->
+        <div class="hidden xl:flex items-center space-x-1">
+          <a href="#beranda" class="px-3 py-2 text-xs font-semibold text-[#0072CE] bg-blue-50/80 rounded-xl transition-colors">
+            Beranda
+          </a>
+          <a href="#sambutan" class="px-3 py-2 text-xs font-medium text-[#1E293B] hover:text-[#0072CE] hover:bg-slate-50 rounded-xl transition-colors">
+            Sambutan
+          </a>
+          <a href="#pilar-section" class="px-3 py-2 text-xs font-medium text-[#1E293B] hover:text-[#0072CE] hover:bg-slate-50 rounded-xl transition-colors">
+            Pilar
+          </a>
+          <a href="#fasilitas-section" class="px-3 py-2 text-xs font-medium text-[#1E293B] hover:text-[#0072CE] hover:bg-slate-50 rounded-xl transition-colors">
+            Fasilitas
+          </a>
+          <a href="#kegiatan-section" class="px-3 py-2 text-xs font-medium text-[#1E293B] hover:text-[#0072CE] hover:bg-slate-50 rounded-xl transition-colors">
+            Aktivitas
+          </a>
+          <a href="#prestasi-section" class="px-3 py-2 text-xs font-medium text-[#1E293B] hover:text-[#0072CE] hover:bg-slate-50 rounded-xl transition-colors">
+            Prestasi
+          </a>
+          <a href="#berita-section" class="px-3 py-2 text-xs font-medium text-[#1E293B] hover:text-[#0072CE] hover:bg-slate-50 rounded-xl transition-colors">
+            Berita
+          </a>
+          <a href="#testimoni-section" class="px-3 py-2 text-xs font-medium text-[#1E293B] hover:text-[#0072CE] hover:bg-slate-50 rounded-xl transition-colors">
+            Testimoni
+          </a>
+
+          <!-- Tombol PPDB Aksen Emas (#DAA520) -->
+          <a href="#ppdb-section" class="ml-1 px-3.5 py-2 text-xs font-bold text-white bg-[#DAA520] hover:bg-amber-600 rounded-xl shadow-sm hover:shadow-md transition-all duration-200 flex items-center space-x-1.5">
+            <span>PPDB 2026/2027</span>
+            <span class="relative flex h-2 w-2">
+              <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-75"></span>
+              <span class="relative inline-flex rounded-full h-2 w-2 bg-white"></span>
+            </span>
+          </a>
+          <a href="#kontak" class="px-3 py-2 text-xs font-medium text-slate-600 hover:text-[#0072CE] hover:bg-slate-50 rounded-xl transition-colors">
+            Lokasi
+          </a>
+        </div>
+
+        <!-- Tombol Hamburger Menu (Mobile & Tablet) -->
+        <div class="flex xl:hidden items-center">
+          <button 
+            type="button" 
+            id="mobile-menu-btn"
+            class="inline-flex items-center justify-center p-2.5 rounded-xl text-[#1E293B] hover:text-[#0072CE] hover:bg-slate-100 focus:outline-none focus:ring-2 focus:ring-[#0072CE] transition-colors"
+            aria-expanded="false"
+            aria-label="Buka Menu Navigasi"
+          >
+            <svg id="hamburger-icon" class="block h-6 w-6 stroke-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+            <svg id="close-icon" class="hidden h-6 w-6 stroke-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+
+      </div>
+    </nav>
+
+    <!-- Menu Navigasi Mobile -->
+    <div id="mobile-menu" class="hidden xl:hidden border-t border-slate-200 bg-white shadow-xl transition-all duration-200">
+      <div class="px-4 pt-3 pb-6 space-y-1.5 sm:px-6">
+        <a href="#beranda" class="mobile-nav-link block px-3.5 py-2.5 rounded-xl text-sm font-semibold text-[#0072CE] bg-blue-50/80">
+          1. Beranda Utama
+        </a>
+        <a href="#sambutan" class="mobile-nav-link block px-3.5 py-2.5 rounded-xl text-sm font-medium text-[#1E293B] hover:text-[#0072CE] hover:bg-slate-50">
+          2. Sambutan Pimpinan
+        </a>
+        <a href="#pilar-section" class="mobile-nav-link block px-3.5 py-2.5 rounded-xl text-sm font-medium text-[#1E293B] hover:text-[#0072CE] hover:bg-slate-50">
+          3. Pilar Pendidikan
+        </a>
+        <a href="#fasilitas-section" class="mobile-nav-link block px-3.5 py-2.5 rounded-xl text-sm font-medium text-[#1E293B] hover:text-[#0072CE] hover:bg-slate-50">
+          4. Fasilitas Pesantren
+        </a>
+        <a href="#kegiatan-section" class="mobile-nav-link block px-3.5 py-2.5 rounded-xl text-sm font-medium text-[#1E293B] hover:text-[#0072CE] hover:bg-slate-50">
+          5. Galeri Aktivitas Santri
+        </a>
+        <a href="#prestasi-section" class="mobile-nav-link block px-3.5 py-2.5 rounded-xl text-sm font-medium text-[#1E293B] hover:text-[#0072CE] hover:bg-slate-50">
+          6. Prestasi Santri
+        </a>
+        <a href="#berita-section" class="mobile-nav-link block px-3.5 py-2.5 rounded-xl text-sm font-medium text-[#1E293B] hover:text-[#0072CE] hover:bg-slate-50">
+          7. Berita Terbaru
+        </a>
+        <div class="pt-1 pb-1">
+          <a href="#ppdb-section" class="mobile-nav-link flex items-center justify-between px-4 py-3 rounded-xl text-sm font-bold text-white bg-[#DAA520] hover:bg-amber-600 shadow-sm">
+            <span>8. Informasi PPDB 2026/2027</span>
+            <span class="text-xs bg-white/20 px-2.5 py-0.5 rounded-full font-bold">Daftar</span>
+          </a>
+        </div>
+        <a href="#testimoni-section" class="mobile-nav-link block px-3.5 py-2.5 rounded-xl text-sm font-medium text-[#1E293B] hover:text-[#0072CE] hover:bg-slate-50">
+          9. Testimoni Santri & Alumni
+        </a>
+        <a href="#kontak" class="mobile-nav-link block px-3.5 py-2.5 rounded-xl text-sm font-medium text-[#1E293B] hover:text-[#0072CE] hover:bg-slate-50">
+          10. Lokasi Google Maps & Kontak
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="flex-grow">
+    
+    <!-- ========================================================================= -->
+    <!-- SECTION 1: SAMPUL / HERO SECTION                                          -->
+    <!-- ========================================================================= -->
+    <section 
+      id="beranda" 
+      class="relative w-full min-h-[540px] sm:min-h-[600px] lg:min-h-[660px] flex items-center justify-center text-center bg-slate-900 bg-cover bg-center bg-no-repeat overflow-hidden"
+      style="background-image: url('src/img/Cuplikan\ layar\ 2026-10-24\ 160108.png');"
+    >
+      <div class="absolute inset-0 bg-gradient-to-t from-[#1E293B] via-[#1E293B]/80 to-[#0072CE]/85"></div>
+      <div class="absolute inset-0 bg-[radial-gradient(#DAA520_4px,transparent_3px)] [background-size:28px_28px] opacity-40"></div>
+
+      <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-20 flex flex-col items-center">
+
+
+        <h2 class="text-xs sm:text-sm font-bold text-amber-200 uppercase tracking-widest px-4 py-1.5 rounded-full bg-white/10 backdrop-blur-md mb-4 border border-white/15">
+          Selamat Datang di Portal Resmi
+        </h2>
+
+        <h1 class="text-white text-1xl sm:text-3xl lg:text-1xl font-black tracking-tight leading-tight max-w-4xl mb-4 drop-shadow-md">
+          Pesantren Pendidikan Islam
+        </h1>
+        <h1 class="text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-tight max-w-4xl mb-4 drop-shadow-md">
+          <div class="text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-yellow-300 to-amber-400">Darul Abrar</div>
+        </h1>
+        
+
+        <p class="text-lg sm:text-2xl font-semibold text-blue-100 tracking-wide mb-8 drop-shadow-sm">
+          "Menuju Generasi Qur'ani"
+        </p>
+
+        <div class="flex flex-col sm:flex-row items-center gap-4">
+          <a 
+            id="ppdb-cta-hero"
+            href="#ppdb-section" 
+            class="w-full sm:w-auto inline-flex items-center justify-center space-x-3 px-8 py-4 rounded-2xl bg-[#DAA520] hover:bg-amber-600 text-white font-extrabold text-base shadow-xl shadow-amber-950/40 hover:scale-105 active:scale-95 transition-all duration-300 group"
+          >
+            <span>Daftar Santri Baru (PPDB)</span>
+            <svg class="w-5 h-5 transition-transform duration-200 group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+            </svg>
+          </a>
+
+          <a 
+            href="#fasilitas-section" 
+            class="w-full sm:w-auto inline-flex items-center justify-center space-x-2 px-7 py-4 rounded-2xl bg-white/15 hover:bg-white/25 text-white font-bold text-base backdrop-blur-md border border-white/20 transition-all duration-200"
+          >
+            <span>Jelajahi Fasilitas</span>
+            <svg class="w-4 h-4 text-amber-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================= -->
+    <!-- SECTION 2: GREETING ATAU SAMBUTAN PIMPINAN                                -->
+    <!-- ========================================================================= -->
+    <section id="sambutan" class="w-3/4 mx-auto py-16 sm:py-20 bg-white border-b border-slate-200">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="mb-10 text-center md:text-left">
+          <span class="text-xs font-bold text-[#DAA520] uppercase tracking-widest block mb-1">
+            KATA PENGANTAR PENGASUH
+          </span>
+          <h2 class="text-2xl sm:text-4xl font-extrabold text-[#1E293B] tracking-tight">
+            Sambutan Pimpinan Pondok Pesantren
+          </h2>
+        </div>
+
+        <div class="flex flex-col md:flex-row gap-8 lg:gap-12 items-center md:items-start">
+          
+          <div class="w-full md:w-1/3 max-w-sm">
+            <div class="bg-gradient-to-b from-[#f8faf9] to-blue-50/50 rounded-3xl p-6 border border-slate-200 shadow-sm text-center flex flex-col items-center">
+              <div class="relative mb-5 group w-full aspect-square max-w-[240px] rounded-2xl overflow-hidden shadow-md">
+                <img 
+                  src="src/img/Potret Formal Pria Berkopiah Putih.png" 
+                  alt="Foto Pimpinan Pondok Pesantren Darul Abrar" 
+                  class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                />
+                <div class="absolute inset-0 bg-gradient-to-t from-slate-950/60 via-transparent to-transparent"></div>
+              </div>
+
+              <h3 class="text-lg font-bold text-[#0072CE] leading-snug">
+                Dr. H. Muttaqien Said, M.A.
+              </h3>
+              <p class="text-xs font-semibold text-slate-500 uppercase tracking-wider mt-1.5">
+                Pimpinan Pesantren Pendidikan Islam Darul Abrar
+              </p>
+            </div>
+          </div>
+
+          <div class="w-full md:w-2/3 flex flex-col justify-center">
+            <div class="mb-4">
+              <span class="font-arabic text-xl sm:text-2xl text-[#0072CE] font-bold block">
+                السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ
+              </span>
+            </div>
+
+            <p class="text-sm sm:text-base text-slate-700 leading-relaxed mb-4 text-justify">
+              Segala puji bagi Allah Subhanahu wa Ta'ala yang telah melimpahkan rahmat dan taufiq-Nya. Pesantren Darul Abrar senantiasa berkomitmen memadukan kemurnian pengajaran kitab kuning (turats) dengan penguasaan sains dan teknologi kontemporer.
+            </p>
+
+            <p class="text-sm sm:text-base text-slate-700 leading-relaxed mb-6 text-justify">
+              Kami meyakini bahwa santri di masa kini tidak hanya dituntut mahir membaca kitab dan hafidz Al-Qur'an, tetapi juga memiliki integritas kepemimpinan, kepedulian sosial, serta kemampuan berkomunikasi dalam bahasa dunia internasional. Selamat bertumbuh bersama kami dalam mencetak generasi khairu ummah.
+            </p>
+
+            <div class="pt-4 border-t border-slate-200 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+              <div>
+                <div class="text-xs font-bold text-slate-400 uppercase">Amanah Pengasuh</div>
+                <div class="text-sm font-semibold text-slate-600">Pesantren Pendidikan Islam Darul Abrar</div>
+              </div>
+              <div class="font-serif italic text-base text-[#0072CE] font-bold">
+                Dr. H. Muttaqien Said, M.A.
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================= -->
+    <!-- SECTION 3: PILAR PENDIDIKAN PESANTREN DARUL ABRAR                        -->
+    <!-- ========================================================================= -->
+    <section id="pilar-section" class="w-full py-16 sm:py-20 bg-[#1E293B] text-white">
+      <div class="w-3/4 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-12 sm:mb-16">
+          <span class="inline-block px-3.5 py-1 rounded-full bg-blue-900/60 text-blue-300 text-xs font-bold uppercase tracking-widest mb-3 border border-blue-700/50">
+            Keunggulan & Karakteristik
+          </span>
+          <h2 class="text-2xl sm:text-4xl font-extrabold text-white tracking-tight">
+            Pilar Pendidikan Pesantren Darul Abrar
+          </h2>
+          <p class="text-xs sm:text-sm text-slate-300 mt-3 leading-relaxed">
+            Menghubungkan kedalaman ilmu syariah dengan wawasan modern guna melahirkan santri mandiri dan berintelektual tinggi.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
+          
+          <div class="bg-white/5 rounded-3xl p-8 border border-white/10 hover:border-[#0072CE] hover:bg-white/10 transition-all duration-300 flex flex-col items-center text-center group">
+            <div class="w-16 h-16 rounded-2xl bg-[#0072CE]/20 text-[#0072CE] group-hover:bg-[#0072CE] group-hover:text-white flex items-center justify-center mb-6 transition-all duration-300">
+              <svg class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+              </svg>
+            </div>
+            <h3 class="text-lg font-bold text-white group-hover:text-blue-300 transition-colors mb-3">
+              Kurikulum Terpadu
+            </h3>
+            <p class="text-xs text-slate-300 leading-relaxed">
+              Integrasi kurikulum Nasional, Kepesantrenan dan program Tahfidzul Qur'an 30 Juz.
+            </p>
+          </div>
+
+          <div class="bg-white/5 rounded-3xl p-8 border border-white/10 hover:border-[#DAA520] hover:bg-white/10 transition-all duration-300 flex flex-col items-center text-center group">
+            <div class="w-16 h-16 rounded-2xl bg-amber-500/20 text-[#DAA520] group-hover:bg-[#DAA520] group-hover:text-slate-900 flex items-center justify-center mb-6 transition-all duration-300">
+              <svg class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+              </svg>
+            </div>
+            <h3 class="text-lg font-bold text-white group-hover:text-amber-300 transition-colors mb-3">
+              Fasilitas Representatif
+            </h3>
+            <p class="text-xs text-slate-300 leading-relaxed">
+              Masjid, asrama, fasilitas olahraga, laboratorium komputer, perpustakaan.
+            </p>
+          </div>
+
+          <div class="bg-white/5 rounded-3xl p-8 border border-white/10 hover:border-[#0072CE] hover:bg-white/10 transition-all duration-300 flex flex-col items-center text-center group">
+            <div class="w-16 h-16 rounded-2xl bg-[#0072CE]/20 text-[#0072CE] group-hover:bg-[#0072CE] group-hover:text-white flex items-center justify-center mb-6 transition-all duration-300">
+              <svg class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+              </svg>
+            </div>
+            <h3 class="text-lg font-bold text-white group-hover:text-blue-300 transition-colors mb-3">
+              Bakat & Kepemimpinan
+            </h3>
+            <p class="text-xs text-slate-300 leading-relaxed">
+              Pengasahan skill hidup lewat Tapak Suci, Pramuka, Public speaking, dakwah, dan jurnalistik.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================= -->
+    <!-- SECTION 4: FASILITAS PESANTREN (GRID 3x2 DENGAN MODAL DETAIL)             -->
+    <!-- ========================================================================= -->
+    <section id="fasilitas-section" class="w-3/4 mx-auto py-16 sm:py-24 bg-[#f8faf9] border-b border-slate-200" aria-labelledby="fasilitas-heading">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-12 sm:mb-16">
+          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider mb-3 bg-blue-100 text-[#0072CE] border border-blue-200">
+            <span class="w-2 h-2 rounded-full bg-[#DAA520]"></span>
+            Sarana & Prasarana Pendidikan
+          </div>
+          <h2 id="fasilitas-heading" class="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-[#1E293B]">
+            Fasilitas <span class="text-[#0072CE]">Pesantren Modern</span>
+          </h2>
+          <p class="mt-3 text-sm sm:text-base text-slate-600 leading-relaxed">
+            Menyediakan lingkungan belajar dan tempat tinggal yang bersih, aman, nyaman, dan mendukung pencapaian prestasi santri secara paripurna.
+          </p>
+        </div>
+
+        <!-- Grid 3x2 Fasilitas Pesantren (6 Kartu Konsisten) -->
+        <div 
+          id="fasilitas-grid-container" 
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8"
+        >
+          <!-- 6 Kartu Fasilitas dirender secara dinamis oleh src/script.js -->
+        </div>
+
+      </div>
+    </section>
+
+    <!-- MODAL DETAIL FASILITAS PESANTREN -->
+    <div 
+      id="fasilitas-modal" 
+      class="fixed inset-0 z-50 hidden items-center justify-center p-4 sm:p-6 overflow-y-auto"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="fasilitas-modal-title"
+    >
+      <div id="fasilitas-modal-backdrop" class="fixed inset-0 bg-slate-950/70 backdrop-blur-sm transition-opacity"></div>
+
+      <div 
+        id="fasilitas-modal-card" 
+        class="relative w-full max-w-2xl bg-white rounded-3xl shadow-2xl border border-slate-200 overflow-hidden z-10 my-8 transform transition-all flex flex-col max-h-[90vh]"
+      >
+        <div class="relative h-60 sm:h-72 w-full bg-slate-900 shrink-0 overflow-hidden">
+          <img 
+            id="fasilitas-modal-img" 
+            src="" 
+            alt="Foto Detail Fasilitas" 
+            class="w-full h-full object-cover"
+          />
+          <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+
+          <button 
+            type="button" 
+            id="fasilitas-modal-close-btn"
+            class="absolute top-4 right-4 z-20 w-10 h-10 rounded-full bg-white/90 hover:bg-white text-slate-700 hover:text-red-600 flex items-center justify-center transition-all shadow-md focus:outline-none"
+            aria-label="Tutup Modal"
+          >
+            <svg class="w-5 h-5 stroke-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+
+          <div class="absolute bottom-4 left-5 right-5 text-white">
+            <span id="fasilitas-modal-kategori" class="inline-block px-2.5 py-0.5 rounded-md bg-[#DAA520] text-slate-900 font-bold text-xs uppercase tracking-wider mb-1.5">
+              Kategori
+            </span>
+            <h3 id="fasilitas-modal-title" class="text-xl sm:text-2xl font-bold leading-tight drop-shadow-md">
+              Judul Fasilitas
+            </h3>
+          </div>
+        </div>
+
+        <div class="p-6 sm:p-7 overflow-y-auto space-y-6">
+          <div>
+            <h4 class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-2">Deskripsi Fasilitas</h4>
+            <p id="fasilitas-modal-desc" class="text-sm sm:text-base text-slate-700 leading-relaxed text-justify">
+              Deskripsi lengkap fasilitas akan ditampilkan di sini.
+            </p>
+          </div>
+
+          <div>
+            <h4 class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3">Spesifikasi & Daya Tampung</h4>
+            <div id="fasilitas-modal-specs" class="grid grid-cols-1 sm:grid-cols-2 gap-3"></div>
+          </div>
+        </div>
+
+        <div class="p-4 sm:p-5 bg-slate-50 border-t border-slate-100 flex items-center justify-between">
+          <span class="text-xs text-slate-500 font-medium">Pesantren Darul Abrar • Fasilitas Unggulan</span>
+          <button 
+            type="button" 
+            id="fasilitas-modal-btn-close"
+            class="px-5 py-2 rounded-xl bg-slate-200 hover:bg-slate-300 text-slate-700 text-xs sm:text-sm font-bold transition-colors"
+          >
+            Tutup
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ========================================================================= -->
+    <!-- SECTION 5: GALERI AKTIVITAS SANTRI                                        -->
+    <!-- ========================================================================= -->
+    <section id="kegiatan-section" class="w-3/4 mx-auto py-16 sm:py-20 bg-white border-b border-slate-200" aria-labelledby="kegiatan-heading">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-3xl mx-auto mb-10">
+          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider mb-3 bg-[#0072CE]/10 text-[#0072CE] border border-[#0072CE]/20">
+            <span class="w-2 h-2 rounded-full bg-[#DAA520] animate-pulse"></span>
+            Aktivitas & Kreativitas
+          </div>
+          <h2 id="kegiatan-heading" class="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-[#1E293B]">
+            Galeri Aktivitas <span class="text-[#0072CE]">Santri Pesantren</span>
+          </h2>
+          <p class="mt-2 text-sm sm:text-base text-slate-600 leading-relaxed">
+            Membentuk santri yang mandiri, berkarakter unggul, berbadan bugar, dan berakhlakul karimah.
+          </p>
+        </div>
+
+        <div class="flex items-center justify-between mb-5 px-1">
+          
+          <div class="flex items-center gap-1.5">
+            <button 
+              id="prev-btn" 
+              type="button" 
+              class="w-9 h-9 rounded-full border border-slate-200 bg-white hover:bg-slate-50 text-slate-700 flex items-center justify-center transition shadow-xs hover:scale-105 active:scale-95 cursor-pointer" 
+              title="Kegiatan Sebelumnya"
+              aria-label="Kegiatan Sebelumnya"
+            >
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M15 19l-7-7 7-7" />
+              </svg>
+            </button>
+            <button 
+              id="next-btn" 
+              type="button" 
+              class="w-9 h-9 rounded-full border border-slate-200 bg-[#0072CE] hover:bg-blue-700 text-white flex items-center justify-center transition shadow-xs hover:scale-105 active:scale-95 cursor-pointer" 
+              title="Kegiatan Selanjutnya"
+              aria-label="Kegiatan Selanjutnya"
+            >
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7" />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- Grid Dua Kolom (Kiri Utama 1:1, Kanan 2x2 Thumbnail 1:1) -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 items-start">
+          
+          <div class="w-full">
+            <div 
+              id="main-card-container" 
+              class="w-full aspect-square bg-white rounded-3xl shadow-xl shadow-slate-200/60 border border-slate-200/80 overflow-hidden flex flex-col transition-all duration-300"
+            >
+              <div class="relative w-full h-[58%] bg-slate-900 overflow-hidden shrink-0 group">
+                <img 
+                  id="main-card-img" 
+                  src="https://images.unsplash.com/photo-1555597673-b21d5c935865?q=80&w=1200&auto=format&fit=crop" 
+                  alt="Foto Kegiatan Utama" 
+                  class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+                  loading="lazy"
+                />
+                <div class="absolute inset-0 bg-gradient-to-t from-[#1E293B]/80 via-transparent to-black/20 pointer-events-none"></div>
+
+                <div class="absolute top-3.5 left-3.5 z-10 flex items-center gap-2">
+                  <span id="main-card-badge" class="inline-flex items-center justify-center w-9 h-9 rounded-xl bg-[#0072CE] text-white font-black text-sm shadow-md ring-2 ring-white/30">
+                    1
+                  </span>
+                  <span id="main-card-category" class="px-2.5 py-1 rounded-lg bg-white/95 backdrop-blur-md text-[11px] font-bold text-[#1E293B] shadow-xs uppercase tracking-wide">
+                    Bela Diri
+                  </span>
+                </div>
+
+                <div class="absolute top-3.5 right-3.5 z-10">
+                  <span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-[#DAA520] text-slate-900 font-extrabold text-[10px] shadow-xs">
+                    ★ Unggulan
+                  </span>
+                </div>
+
+                <div class="absolute bottom-3 left-4 right-4 text-white pointer-events-none">
+                  <p id="main-card-subtitle" class="text-xs uppercase tracking-wider text-[#DAA520] font-bold line-clamp-1 drop-shadow">
+                    Seni Bela Diri Santri
+                  </p>
+                </div>
+              </div>
+
+              <div class="w-full h-[42%] p-5 flex flex-col justify-between bg-white overflow-hidden">
+                <div>
+                  <h3 id="main-card-title" class="text-lg sm:text-xl font-extrabold text-[#1E293B] leading-tight line-clamp-1 mb-1.5">
+                    Tapak Suci Putera Muhammadiyah
+                  </h3>
+                  <p id="main-card-desc" class="text-slate-600 text-xs sm:text-sm leading-relaxed line-clamp-3">
+                    Membina ketangkasan fisik, seni bela diri pencak silat khas pesantren, dan pembentukan akhlakul karimah serta mental tangguh santri.
+                  </p>
+                </div>
+
+                <div class="pt-3 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500">
+                  <div class="truncate pr-2">
+                    <span class="text-slate-400">Jadwal:</span> 
+                    <strong id="main-card-schedule" class="text-slate-700 ml-1">Senin & Kamis</strong>
+                  </div>
+                  <div class="truncate text-right shrink-0">
+                    <span class="text-slate-400">Pembina:</span> 
+                    <strong id="main-card-instructor" class="text-[#0072CE] ml-1">Ustadz Hamdan</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="w-full">
+            <div 
+              id="side-cards-grid" 
+              class="w-full aspect-square grid grid-cols-2 grid-rows-2 gap-3.5 sm:gap-4 md:gap-5"
+            >
+              <!-- 4 Card berasio 1:1 dirender secara dinamis oleh JavaScript -->
+            </div>
+          </div>
+
+        </div>
+
+        <div class="mt-6 flex flex-col sm:flex-row items-center justify-between gap-3 pt-4 border-t border-slate-200">
+          <div class="text-xs text-slate-500 flex items-center gap-1.5">
+          
+          </div>
+          <div id="dots-container" class="flex items-center gap-1.5 shrink-0"></div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================= -->
+    <!-- SECTION 6: SECTION BARU - PRESTASI & KEJUARAAN SANTRI                     -->
+    <!-- ========================================================================= -->
+    <section id="prestasi-section" class="w-3/4 mx-auto py-16 sm:py-20 bg-pesantren-bg font-sans border-b border-slate-200">
+
+      <!-- STRUKTUR HTML SHOWCASE PRESTASI -->
+      <div id="prestasi-showcase-section" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <!-- Header Bagian Prestasi -->
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-10 pb-6 border-b border-slate-200">
+          <div class="max-w-2xl">
+            <div class="flex items-center gap-2 text-xs font-semibold tracking-wider uppercase text-pesantren-primary mb-2">
+              <span class="w-2 h-2 rounded-full bg-[#DAA520]"></span>
+              <span>Prestasi Santri Pesantren</span>
+              <span aria-hidden="true" class="text-slate-300">·</span>
+            </div>
+            <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-pesantren-dark tracking-tight" style="text-wrap: balance;">
+              Prestasi & Kejuaraan Santri
+            </h2>
+            <p class="mt-2 text-sm sm:text-base text-slate-600 leading-relaxed">
+              Bukti nyata keunggulan akademik, tahfidz, sains, dan ketangkasan santri Darul Abrar di kancah regional, nasional, hingga internasional.
+            </p>
+          </div>
+
+          <!-- Navigasi & Indikator Angka -->
+          <div class="flex items-center gap-3 shrink-0">
+            <div class="flex items-center gap-1 font-mono text-sm font-semibold text-pesantren-dark bg-white px-3.5 py-2 rounded-xl border border-slate-200 shadow-xs">
+              <span id="prestasi-current-number" class="text-pesantren-primary font-bold tabular-nums">01</span>
+              <span class="text-slate-300">/</span>
+              <span id="prestasi-total-number" class="text-slate-500 tabular-nums">07</span>
+            </div>
+
+            <!-- Tombol Panah Prev -->
+            <button
+              id="prestasi-btn-prev"
+              type="button"
+              aria-label="Prestasi Sebelumnya"
+              class="w-10 h-10 rounded-xl bg-white border border-slate-200 text-slate-700 hover:bg-slate-50 hover:text-pesantren-primary hover:border-pesantren-primary/40 flex items-center justify-center transition-all duration-200 active:scale-95 shadow-xs focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-pesantren-primary cursor-pointer"
+            >
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+              </svg>
+            </button>
+
+            <!-- Tombol Panah Next -->
+            <button
+              id="prestasi-btn-next"
+              type="button"
+              aria-label="Prestasi Berikutnya"
+              class="w-10 h-10 rounded-xl bg-pesantren-primary text-white hover:bg-[#005ea8] flex items-center justify-center transition-all duration-200 active:scale-95 shadow-xs focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-pesantren-primary cursor-pointer"
+            >
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- 
+          LAYOUT: 
+          - Main Card di Kiri (~42%, tinggi 510px - 610px)
+          - 3 Deret Kartu ke Samping Kanan (~58%, tinggi 2/3 = 340px)
+          - Sejajar di dasar bawah (lg:items-end)
+        -->
+        <div class="flex flex-col lg:flex-row lg:items-end gap-6 lg:gap-8">
+          
+          <!-- ================= KARTU UTAMA (KIRI - LEBAR ~42%) ================= -->
+          <div class="w-full lg:w-[42%] shrink-0">
+            <article
+              id="prestasi-main-card"
+              class="group bg-white rounded-3xl border border-slate-200 shadow-sm overflow-hidden transition-all duration-300 ease-out hover:shadow-md flex flex-col h-auto lg:h-[610px]"
+              style="min-height: 440px;"
+            >
+              <!-- Foto Utama Prestasi (Tag <img> Standar) -->
+              <div class="relative h-[240px] sm:h-[280px] lg:h-[280px] w-full overflow-hidden bg-slate-100 shrink-0">
+                <img
+                  id="prestasi-main-img"
+                  src="https://images.unsplash.com/photo-1609599006353-e629aaabfeae?auto=format&fit=crop&w=1200&q=80"
+                  alt="Foto Utama Prestasi Pesantren"
+                  loading="eager"
+                  class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-102"
+                />
+                <div class="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-slate-950/25 to-transparent"></div>
+
+                <div class="absolute bottom-4 left-4 sm:left-6 right-4 flex items-center justify-between text-white">
+                  <div class="flex items-center gap-2 text-xs sm:text-sm font-semibold">
+                    <span class="w-2 h-2 rounded-full bg-pesantren-accent"></span>
+                    <span id="prestasi-main-kategori" class="tracking-wide uppercase text-pesantren-accent font-bold drop-shadow-xs">
+                      Tahfidz & Keagamaan
+                    </span>
+                  </div>
+                  <span class="text-xs text-slate-200 font-mono tracking-wider bg-slate-900/65 backdrop-blur-xs px-2.5 py-1 rounded-md border border-white/10">
+                    Kartu Utama
+                  </span>
+                </div>
+              </div>
+
+              <!-- Konten Teks Kartu Utama -->
+              <div class="p-5 sm:p-6 lg:p-7 flex flex-col justify-between flex-grow">
+                <div>
+                  <h3
+                    id="prestasi-main-judul"
+                    class="text-lg sm:text-xl lg:text-2xl font-bold text-pesantren-dark leading-tight tracking-tight mb-2.5 line-clamp-2"
+                  >
+                    Juara 1 Musabaqah Hifdzil Qur'an 30 Juz Tingkat Internasional
+                  </h3>
+                  
+                  <p
+                    id="prestasi-main-deskripsi"
+                    class="text-slate-600 text-xs sm:text-sm leading-relaxed line-clamp-3 mb-4"
+                  >
+                    Santri Muhammad Raihan Al-Fatih meraih predikat Mumtaz dan Juara 1 pada ajang International Holy Quran Competition di Istanbul, mengharumkan nama pesantren di hadapan 45 negara peserta.
+                  </p>
+                </div>
+
+                <!-- Tombol Aksi Selengkapnya -->
+                <div class="pt-3 border-t border-slate-100 flex items-center justify-between">
+                  
+
+                
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- ================= 3 DERET KARTU KE SAMPING KANAN (TINGGI 2/3: 340px) ================= -->
+          <div class="w-full lg:w-[58%] flex flex-col justify-end">
+            <div class="flex items-center justify-between mb-3 px-1">
+              <h4 class="text-xs font-bold text-pesantren-dark uppercase tracking-wider flex items-center gap-1.5">
+                
+                <span class="text-slate-300 font-normal">|</span>
+                <span class="text-pesantren-primary font-medium">Klik untuk ganti utama</span>
+              </h4>
+              <span class="text-[11px] text-slate-500 lg:hidden">Geser samping &rarr;</span>
+            </div>
+
+            <!-- Wadah 3 Kartu Berderet ke Samping (Tinggi 340px pada Desktop) -->
+            <div
+              id="prestasi-thumbnails-container"
+              class="flex lg:grid lg:grid-cols-3 gap-3.5 sm:gap-4 overflow-x-auto lg:overflow-visible pb-3 lg:pb-0 scrollbar-none snap-x snap-mandatory"
+            >
+              <!-- 3 Kartu thumbnail diisi dinamis oleh JavaScript -->
+            </div>
+
+            <div class="mt-4 p-3.5 rounded-2xl bg-slate-100/90 border border-slate-200 text-xs text-pesantren-dark flex items-center justify-between gap-3">
+            
+            </div>
+          </div> 
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================= -->
+    <!-- SECTION 7: BERITA TERBARU (SISTEM 2/3 KIRI & 1/3 KANAN, DENGAN LOOPING)   -->
+    <!-- ========================================================================= -->
+    <section id="berita-section" class="w-3/4 mx-auto py-16 sm:py-24 bg-[#f8faf9] border-b border-slate-200" aria-labelledby="berita-heading">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-10 pb-6 border-b border-slate-200">
+          <div>
+            <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full text-xs font-semibold uppercase tracking-wider mb-2.5 bg-blue-100 text-[#0072CE] border border-blue-200">
+              <span class="w-2 h-2 rounded-full bg-[#DAA520]"></span>
+              Informasi Terkini
+            </div>
+            <h2 id="berita-heading" class="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-[#1E293B]">
+              Kabar & Berita <span class="text-[#0072CE]">Pesantren</span>
+            </h2>
+            <p class="mt-2 text-sm sm:text-base text-slate-600 leading-relaxed">
+              Liputan seputar dinamika santri, prestasi akademik, kunjungan kehormatan, dan agenda dakwah.
+            </p>
+          </div>
+
+          <!-- Navigasi & Indikator Nomor Berita -->
+          <div class="flex items-center gap-3 shrink-0">
+            <div class="flex items-center gap-1 font-mono text-sm font-semibold text-[#1E293B] bg-white px-4 py-2.5 rounded-2xl border border-slate-200 shadow-xs">
+              <span id="berita-counter-current" class="text-[#0072CE] font-bold tabular-nums">01</span>
+              <span class="text-slate-300">/</span>
+              <span id="berita-counter-total" class="text-slate-500 tabular-nums">07</span>
+            </div>
+
+            <button
+              id="berita-btn-prev"
+              type="button"
+              aria-label="Berita Sebelumnya"
+              class="w-10 h-10 rounded-2xl bg-white border border-slate-200 text-slate-700 hover:bg-slate-50 hover:text-[#0072CE] flex items-center justify-center transition shadow-xs hover:scale-105 active:scale-95 cursor-pointer"
+            >
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M15 19l-7-7 7-7" />
+              </svg>
+            </button>
+
+            <button
+              id="berita-btn-next"
+              type="button"
+              aria-label="Berita Berikutnya"
+              class="w-10 h-10 rounded-2xl bg-[#0072CE] text-white hover:bg-blue-700 flex items-center justify-center transition shadow-xs hover:scale-105 active:scale-95 cursor-pointer"
+            >
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7" />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- Layout Berita 2/3 & 1/3 -->
+        <div class="flex flex-col lg:flex-row gap-6 sm:gap-8 items-stretch">
+          
+          <!-- Sisi Kiri: 1 Berita Utama (2/3 Lebar) -->
+          <div class="w-full lg:w-2/3 flex">
+            <article 
+              id="berita-main-container" 
+              class="w-full bg-white rounded-3xl border border-slate-200/90 shadow-sm overflow-hidden flex flex-col justify-between transition-all duration-300"
+            >
+              <div class="relative h-64 sm:h-80 md:h-96 w-full overflow-hidden bg-slate-900 shrink-0 group">
+                <img 
+                  id="berita-main-img" 
+                  src="https://images.unsplash.com/photo-1609599006353-e629aaabfeae?q=80&w=1200&auto=format&fit=crop" 
+                  alt="Foto Berita Utama Pesantren" 
+                  class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+                  loading="eager"
+                />
+                <div class="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-slate-950/30 to-transparent"></div>
+
+                <div class="absolute bottom-4 left-4 sm:left-6 right-4 flex items-center justify-between text-white">
+                  <div class="flex items-center gap-2">
+                    <span class="w-2 h-2 rounded-full bg-[#DAA520]"></span>
+                    <span id="berita-main-kategori" class="text-xs sm:text-sm font-bold tracking-wide uppercase text-amber-300 drop-shadow">
+                      Tahfidz & Akademik
+                    </span>
+                  </div>
+                  <span id="berita-main-tanggal" class="text-xs text-slate-200 font-mono tracking-wider bg-slate-900/60 backdrop-blur-xs px-3 py-1 rounded-lg border border-white/10">
+                    18 Oktober 2026
+                  </span>
+                </div>
+              </div>
+
+              <div class="p-6 sm:p-8 flex flex-col justify-between flex-grow">
+                <div>
+                  <h3 id="berita-main-judul" class="text-xl sm:text-2xl lg:text-3xl font-extrabold text-[#1E293B] leading-tight tracking-tight mb-3 line-clamp-2">
+                    Wisuda Akbar Tahfidz 30 Juz & Pelepasan Santri Angkatan Ke-28 Berlangsung Khidmat
+                  </h3>
+                  <p id="berita-main-ringkasan" class="text-slate-600 text-sm sm:text-base leading-relaxed line-clamp-3 mb-6">
+                    Sebanyak 145 santri resmi diwisuda dan menyelesaikan hafalan 30 Juz Al-Qur'an bersanad, disaksikan ribuan wali santri serta para ulama terkemuka.
+                  </p>
+                </div>
+
+                <div class="pt-4 border-t border-slate-100 flex items-center justify-between">
+                  <a 
+                    id="berita-btn-baca-cta"
+                    href="#baca-berita" 
+                    class="inline-flex items-center gap-2.5 px-6 py-3 rounded-2xl bg-[#0072CE] hover:bg-blue-700 text-white text-xs sm:text-sm font-bold shadow-md shadow-[#0072CE]/20 hover:scale-102 active:scale-98 transition-all duration-200 group"
+                  >
+                    <span>Baca Berita Selengkapnya</span>
+                    <svg class="w-4 h-4 text-[#DAA520] transition-transform duration-200 group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                    </svg>
+                  </a>
+
+                  <span class="text-xs text-slate-400 hidden sm:inline-block">
+                    Klik kartu di samping untuk memutar
+                  </span>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- Sisi Kanan: 3 Berita Bersusun Vertikal (1/3 Lebar) -->
+          <div class="w-full lg:w-1/3 flex flex-col justify-between">
+            <div class="flex items-center justify-between mb-3 px-1">
+              <h4 class="text-xs font-bold text-slate-500 uppercase tracking-wider flex items-center gap-1.5">
+                <span>3 Berita Selanjutnya</span>
+                <span class="text-slate-300">•</span>
+                <span class="text-[#0072CE] font-semibold">Klik untuk membaca</span>
+              </h4>
+              <span class="text-[11px] font-mono text-slate-400">Total: 7 Berita</span>
+            </div>
+
+            <div id="berita-sidebar-list" class="flex flex-col gap-3.5 sm:gap-4 flex-grow justify-between">
+              <!-- 3 Kartu Berita diisi secara dinamis oleh JavaScript -->
+            </div>
+
+            <div class="mt-4 p-3.5 rounded-2xl bg-white border border-slate-200 text-xs text-slate-600 flex items-center justify-between">
+              <span class="text-[11px]">Sistem berputar berurutan (Looping 1 - 7).</span>
+              <span class="font-bold text-[#0072CE] text-[11px]">Dinamis & Teratur</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- MODAL BACA BERITA LENGKAP -->
+    <div 
+      id="berita-modal" 
+      class="fixed inset-0 z-50 hidden items-center justify-center p-4 sm:p-6 overflow-y-auto"
+      role="dialog"
+      aria-modal="true"
+    >
+      <div id="berita-modal-backdrop" class="fixed inset-0 bg-slate-950/70 backdrop-blur-sm transition-opacity"></div>
+      
+      <div class="relative w-full max-w-3xl bg-white rounded-3xl shadow-2xl border border-slate-200 overflow-hidden z-10 my-8 transform transition-all flex flex-col max-h-[90vh]">
+        <div class="relative h-60 sm:h-80 w-full bg-slate-900 shrink-0">
+          <img id="berita-modal-img" src="" alt="Foto Berita" class="w-full h-full object-cover" />
+          <button 
+            type="button" 
+            id="berita-modal-close-btn"
+            class="absolute top-4 right-4 z-20 w-10 h-10 rounded-full bg-white/90 hover:bg-white text-slate-700 hover:text-red-600 flex items-center justify-center shadow-md focus:outline-none"
+            aria-label="Tutup Berita"
+          >
+            <svg class="w-5 h-5 stroke-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+        <div class="p-6 sm:p-8 overflow-y-auto">
+          <div id="berita-modal-meta" class="text-xs font-semibold text-[#0072CE] mb-2 uppercase tracking-wider"></div>
+          <h3 id="berita-modal-title" class="text-xl sm:text-2xl font-black text-[#1E293B] mb-4 leading-snug"></h3>
+          <div id="berita-modal-text" class="text-sm sm:text-base text-slate-700 space-y-4"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ========================================================================= -->
+    <!-- SECTION 8: SECTION PPDB (PENERIMAAN PESERTA DIDIK BARU)                   -->
+    <!-- ========================================================================= -->
+    <section id="ppdb-section" class="py-16 sm:py-24 bg-white border-b border-slate-200" aria-labelledby="ppdb-heading">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="w-3/4 mx-auto text-center max-w-3xl mx-auto mb-12 sm:mb-16">
+          <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-widest mb-3 bg-amber-100 text-amber-800 border border-amber-300">
+            <span class="w-2.5 h-2.5 rounded-full bg-[#DAA520] animate-ping"></span>
+            PPDB ONLINE T.A 2026/2027
+          </div>
+          <h2 id="ppdb-heading" class="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-[#1E293B]">
+            Penerimaan Peserta Didik Baru <span class="text-[#0072CE]">Darul Abrar</span>
+          </h2>
+          <!-- <p class="mt-3 text-sm sm:text-base text-slate-600 leading-relaxed">
+            Membuka pendaftaran santri baru tingkat Madrasah Tsanawiyah (MTs) dan Madrasah Aliyah (MA Plus Tahfidz & Sains). Kuota terbatas untuk memastikan pembinaan asatidz optimal.
+          </p> -->
+        </div>
+
+        <!-- 3 Gelombang Pendaftaran -->
+        <div class="mb-14">
+          <div class="flex items-center justify-between mb-4 px-1">
+            <h3 class="text-sm font-extrabold text-[#1E293B] uppercase tracking-wider flex items-center gap-2">
+              <svg class="w-4 h-4 text-[#DAA520]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              Jadwal Gelombang Pendaftaran
+            </h3>
+            <span class="text-xs text-slate-500 font-medium">Tahun Ajaran 2026/2027</span>
+          </div>
+
+          <div id="ppdb-gelombang-container" class="grid grid-cols-1 md:grid-cols-3 gap-5"></div>
+        </div>
+
+        <!-- 2 Kolom: Persyaratan Penting & Alur Pendaftaran -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start mb-14">
+          
+          <div class="lg:col-span-7 bg-[#f8faf9] p-6 sm:p-8 rounded-3xl border border-slate-200">
+            <h3 class="text-lg font-bold text-[#1E293B] mb-2 flex items-center gap-2">
+              <svg class="w-5 h-5 text-[#0072CE]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+              </svg>
+              Persyaratan Utama Pendaftaran
+            </h3>
+            <p class="text-xs text-slate-500 mb-6">
+              Harap siapkan berkas fisik dan berkas scan format PDF/JPG saat melakukan pendaftaran.
+            </p>
+
+            <div id="ppdb-syarat-container" class="grid grid-cols-1 sm:grid-cols-2 gap-3.5"></div>
+          </div>
+
+          <div class="lg:col-span-5 bg-gradient-to-br from-blue-50 to-white p-6 sm:p-8 rounded-3xl border border-blue-100 flex flex-col justify-between h-full">
+            <div>
+              <h3 class="text-lg font-bold text-[#0072CE] mb-2 flex items-center gap-2">
+                <svg class="w-5 h-5 text-[#DAA520]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+                4 Langkah Mudah Mendaftar
+              </h3>
+              <p class="text-xs text-slate-500 mb-6">
+                Proses pendaftaran dirancang cepat dan transparan secara daring.
+              </p>
+
+              <div id="ppdb-alur-container" class="grid grid-cols-2 gap-3"></div>
+            </div>
+
+            <div class="mt-6 pt-4 border-t border-blue-200/60 flex items-center justify-between text-xs">
+              <span class="text-slate-600">Butuh bantuan pendaftaran?</span>
+              <a href="https://wa.me/6285939463834" target="_blank" rel="noopener" class="font-bold text-[#0072CE] hover:underline flex items-center gap-1">
+                WhatsApp Panitia &rarr;
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- BANNER CALL TO ACTION (CTA) MENONJOL -->
+        <div id="ppdb-cta" class="relative rounded-3xl bg-gradient-to-r from-[#0072CE] via-blue-700 to-[#1E293B] p-8 sm:p-12 text-white shadow-2xl overflow-hidden flex flex-col lg:flex-row items-center justify-between gap-8">
+          <div class="absolute -right-10 -bottom-10 w-64 h-64 rounded-full bg-white/10 blur-2xl pointer-events-none"></div>
+          <div class="absolute -left-10 -top-10 w-64 h-64 rounded-full bg-[#DAA520]/20 blur-2xl pointer-events-none"></div>
+
+          <div class="relative z-10 max-w-2xl text-center lg:text-left">
+            <span class="inline-block px-3.5 py-1 rounded-full bg-amber-400 text-slate-900 font-extrabold text-xs tracking-wider uppercase mb-3 shadow-sm">
+              Gelombang 1 Telah Dibuka
+            </span>
+            <h3 class="text-2xl sm:text-3xl lg:text-4xl font-black leading-tight text-white mb-3">
+              Bergabunglah Menjadi Bagian dari Generasi Qur'ani Berprestasi
+            </h3>
+            <p class="text-sm text-blue-100 leading-relaxed">
+              Dapatkan kesempatan beasiswa tahfidz dan fasilitas asrama representatif. Kuota seleksi terbatas untuk setiap angkatan.
+            </p>
+          </div>
+
+          <div class="relative z-10 flex flex-col sm:flex-row items-center gap-4 shrink-0 w-full lg:w-auto">
+            <button 
+              type="button"
+              id="ppdb-cta-btn" 
+              class="w-full sm:w-auto px-8 py-4 rounded-2xl bg-[#DAA520] hover:bg-amber-500 text-white font-extrabold text-sm sm:text-base shadow-xl shadow-amber-950/40 hover:scale-105 active:scale-95 transition-all duration-200 text-center flex items-center justify-center gap-2 cursor-pointer"
+            >
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+              </svg>
+              <span>Daftar Online Sekarang</span>
+            </button>
+
+            <a 
+              href="https://wa.me/6285939463834?text=Halo%20Admin%20PPDB%20Pesantren%20Darul%20Abrar%2C%20saya%20ingin%20konsultasi%20pendaftaran" 
+              target="_blank" 
+              rel="noopener"
+              class="w-full sm:w-auto px-6 py-4 rounded-2xl bg-white/15 hover:bg-white/25 text-white font-bold text-sm sm:text-base backdrop-blur-md border border-white/20 transition-all text-center flex items-center justify-center gap-2"
+            >
+              <svg class="w-5 h-5 text-emerald-300" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0012.04 2z"/>
+              </svg>
+              <span>Tanya Panitia via WA</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- MODAL FORM REGISTRASI CEPAT PPDB -->
+    <div 
+      id="ppdb-form-modal" 
+      class="fixed inset-0 z-50 hidden items-center justify-center p-4 sm:p-6 overflow-y-auto"
+      role="dialog"
+      aria-modal="true"
+    >
+      <div id="ppdb-form-modal-backdrop" class="fixed inset-0 bg-slate-950/70 backdrop-blur-sm transition-opacity"></div>
+      
+      <div class="relative w-full max-w-lg bg-white rounded-3xl shadow-2xl border border-slate-200 overflow-hidden z-10 my-8 transform transition-all">
+        <div class="p-6 bg-gradient-to-r from-[#0072CE] to-blue-700 text-white flex items-center justify-between">
+          <div>
+            <span class="text-xs font-bold text-[#DAA520] uppercase tracking-wider">Formulir Cepat</span>
+            <h3 class="text-xl font-bold">Registrasi Minat Calon Santri</h3>
+          </div>
+          <button 
+            type="button" 
+            id="ppdb-form-modal-close"
+            class="w-9 h-9 rounded-full bg-white/20 hover:bg-white/30 text-white flex items-center justify-center focus:outline-none"
+          >
+            ✕
+          </button>
+        </div>
+
+        <form id="ppdb-quick-form" class="p-6 space-y-4">
+          <div>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Nama Lengkap Calon Santri</label>
+            <input 
+              type="text" 
+              id="ppdb-input-nama"
+              required 
+              placeholder="Contoh: Muhammad Rayhan" 
+              class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-[#0072CE] text-sm"
+            />
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Nomor WhatsApp Orang Tua / Wali</label>
+            <input 
+              type="tel" 
+              id="ppdb-input-wa"
+              required 
+              placeholder="Contoh: 081234567890" 
+              class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-[#0072CE] text-sm"
+            />
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Jenjang Pendidikan Dituju</label>
+            <select 
+              id="ppdb-input-jenjang"
+              class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-[#0072CE] text-sm bg-white"
+            >
+              <option value="Madrasah Tsanawiyah (MTs / Setingkat SMP)">Madrasah Tsanawiyah (MTs / Setingkat SMP)</option>
+              <option value="Madrasah Aliyah Plus Tahfidz (MA / Setingkat SMA)">Madrasah Aliyah Plus Tahfidz (MA / Setingkat SMA)</option>
+              <option value="Program Takhassus Hifdzil Qur'an 30 Juz">Program Takhassus Hifdzil Qur'an 30 Juz</option>
+            </select>
+          </div>
+
+          <div class="pt-2">
+            <button 
+              type="submit" 
+              class="w-full py-3.5 px-6 rounded-xl bg-[#0072CE] hover:bg-blue-700 text-white font-bold text-sm shadow-md transition-all cursor-pointer flex items-center justify-center gap-2"
+            >
+              <span>Lanjutkan ke Tim PPDB WhatsApp</span>
+              <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+              </svg>
+            </button>
+          </div>
+          <p class="text-[11px] text-slate-500 text-center">
+            Data Anda aman dan hanya digunakan untuk keperluan komunikasi pendaftaran PPDB.
+          </p>
+        </form>
+      </div>
+    </div>
+
+    <!-- ========================================================================= -->
+    <!-- SECTION 9: SECTION TESTIMONI SANTRI & ALUMNI                              -->
+    <!-- ========================================================================= -->
+    <section id="testimoni-section" class="w-full mx-auto py-16 sm:py-24 bg-[#f8faf9] overflow-hidden" aria-labelledby="testimoni-heading">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-10 pb-4 border-b border-slate-200">
+          <div class="w-3/4 mx-auto">
+            <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full text-xs font-semibold uppercase tracking-wider mb-2.5 bg-amber-100 text-amber-800 border border-amber-300">
+              <span class="w-2 h-2 rounded-full bg-[#DAA520]"></span>
+              Kisah Inspiratif Santri
+            </div>
+            <h2 id="testimoni-heading" class="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-[#1E293B]">
+              Kata Santri & <span class="text-[#0072CE]">Alumni Darul Abrar</span>
+            </h2>
+            <p class="mt-2 text-sm sm:text-base text-slate-600 leading-relaxed">
+              Pengalaman nyata santri dan alumni yang kini berkiprah di perguruan tinggi ternama dunia serta dunia profesional.
+            </p>
+          </div>
+        </div>
+
+        <!-- Wadah Auto-Scroll (Hover Pause / Mouseleave Resume) -->
+        <div 
+          id="testimoni-track-container" 
+          class="relative w-full overflow-x-auto no-scrollbar py-4 cursor-grab active:cursor-grabbing"
+          aria-label="Daftar testimoni santri otomatis bergulir"
+        >
+          <div 
+            id="testimoni-track" 
+            class="flex gap-5 sm:gap-6 w-max"
+          >
+            <!-- Kartu-kartu testimoni diisi secara dinamis oleh JavaScript -->
+          </div>
+        </div>
+
+        <div class="mt-4 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 pt-2 border-t border-slate-200/80">
+          <div class="flex items-center gap-1.5">
+            <svg class="w-4 h-4 text-[#DAA520]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122" />
+            </svg>
+            <span><strong>Fitur Interaktif:</strong> Letakkan kursor di atas kartu testimoni untuk berhenti; tarik kursor keluar untuk melanjutkan perputaran otomatis.</span>
+          </div>
+          <span class="mt-2 sm:mt-0 font-mono text-slate-400">Total 6 Testimoni Unggulan</span>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========================================================================= -->
+  <!-- 10. FOOTER WEBSITE PESANTREN (LENGKAP DENGAN KOLOM GOOGLE MAPS LOKASI)    -->
+  <!-- ========================================================================= -->
+  <footer id="kontak" class="w-full bg-[#1E293B] text-slate-300 py-16 border-t border-slate-800 mt-auto">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+        
+        <!-- Kolom 1: Info Lembaga & Identitas -->
+        <div class="space-y-4">
+          <div class="flex items-center space-x-3">
+            <div class="h-10 w-10 rounded-xl bg-[#0072CE] flex items-center justify-center text-white shadow">
+              <svg class="w-6 h-6 text-[#DAA520]" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+              </svg>
+            </div>
+            <div>
+              <h4 class="font-extrabold text-white text-base leading-tight">Pesantren Darul Abrar</h4>
+              <p class="text-[11px] text-amber-300 font-semibold">Menuju Generasi Qur'ani</p>
+            </div>
+          </div>
+          <p class="text-xs text-slate-400 leading-relaxed">
+            Lembaga pendidikan Islam modern yang mengintegrasikan Al-Qur'an, kitab kuning, sains, dan bahasa internasional untuk melahirkan insan berakhlakul karimah.
+          </p>
+          <div class="pt-2 text-xs text-slate-400 space-y-1">
+            <p><strong>Hotline:</strong> 0812-3456-7890</p>
+            <p><strong>Telepon:</strong> (021) 7890-1234</p>
+          </div>
+        </div>
+
+        <!-- Kolom 2: Tautan Cepat -->
+        <div>
+          <h4 class="font-bold text-white text-sm mb-4 pb-1 border-b border-slate-700/80">Navigasi Utama</h4>
+          <ul class="text-xs space-y-2.5 text-slate-400">
+            <li><a href="#beranda" class="hover:text-amber-400 transition-colors">1. Beranda Sampul</a></li>
+            <li><a href="#sambutan" class="hover:text-amber-400 transition-colors">2. Sambutan Pimpinan</a></li>
+            <li><a href="#pilar-section" class="hover:text-amber-400 transition-colors">3. Pilar Pendidikan</a></li>
+            <li><a href="#fasilitas-section" class="hover:text-amber-400 transition-colors">4. Fasilitas Pesantren</a></li>
+            <li><a href="#kegiatan-section" class="hover:text-amber-400 transition-colors">5. Galeri Aktivitas</a></li>
+            <li><a href="#prestasi-section" class="hover:text-amber-400 transition-colors">6. Prestasi Santri</a></li>
+            <li><a href="#berita-section" class="hover:text-amber-400 transition-colors">7. Kabar & Berita</a></li>
+            <li><a href="#testimoni-section" class="hover:text-amber-400 transition-colors">9. Testimoni Santri</a></li>
+          </ul>
+        </div>
+
+        <!-- Kolom 3: Layanan PPDB & Pendaftaran -->
+        <div>
+          <h4 class="font-bold text-white text-sm mb-4 pb-1 border-b border-slate-700/80">Informasi PPDB</h4>
+          <ul class="text-xs space-y-2.5 text-slate-400 mb-4">
+            <li><a href="#ppdb-section" class="hover:text-amber-400 transition-colors font-semibold text-amber-300">Pendaftaran Online 2026/2027</a></li>
+            <li><a href="#ppdb-section" class="hover:text-amber-400 transition-colors">Jadwal Gelombang 1, 2 & 3</a></li>
+            <li><a href="#ppdb-section" class="hover:text-amber-400 transition-colors">Syarat Berkas & Administrasi</a></li>
+            <li><a href="#ppdb-section" class="hover:text-amber-400 transition-colors">Beasiswa Tahfidz 30 Juz</a></li>
+          </ul>
+          <a 
+            href="#ppdb-section"
+            class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-[#DAA520] hover:bg-amber-600 text-slate-900 font-bold text-xs transition-colors shadow-xs"
+          >
+            <span>Buka Formulir PPDB</span>
+            <span>&rarr;</span>
+          </a>
+        </div>
+
+        <!-- Kolom 4: KHUSUS LOKASI PESANTREN & GOOGLE MAPS -->
+        <div class="space-y-3">
+          <h4 class="font-bold text-white text-sm mb-4 pb-1 border-b border-slate-700/80 flex items-center gap-2">
+            <svg class="w-4 h-4 text-rose-500 shrink-0" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 010-5 2.5 2.5 0 010 5z"/>
+            </svg>
+            <span>Lokasi Pondok Pesantren</span>
+          </h4>
+          
+          <p class="text-xs text-slate-300 leading-relaxed">
+            Jl. Andi Cekele, Desa Balle, Kec. Kahu, Kab. Bone, Prov. Sulawesi Selatan, Indonesia.
+          </p>
+
+          <!-- Kartu Preview Google Maps Interaktif -->
+          <div class="relative rounded-2xl overflow-hidden border border-slate-700 bg-slate-800/80 p-3 shadow-inner group">
+            <div class="flex items-center gap-3 mb-2.5">
+              <div class="w-8 h-8 rounded-lg bg-red-500/20 text-red-400 flex items-center justify-center shrink-0">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 010-5 2.5 2.5 0 010 5z"/>
+                </svg>
+              </div>
+              <div class="overflow-hidden">
+                <span class="text-xs font-bold text-white block truncate">Google Maps Pesantren</span>
+                <span class="text-[10px] text-slate-400 block truncate">Rute & Navigasi Lokasi</span>
+              </div>
+            </div>
+
+            <!-- Tombol Buka di Google Maps Langsung Sesuai URL User -->
+            <a 
+              href="https://maps.app.goo.gl/3Bq157aiQRFPmUb3A" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              class="w-full inline-flex items-center justify-center gap-2 py-2.5 px-3.5 rounded-xl bg-gradient-to-r from-red-600 to-rose-700 hover:from-red-500 hover:to-rose-600 text-white font-bold text-xs shadow-md transition-all duration-200 group-hover:scale-102"
+            >
+              <span>Buka di Google Maps</span>
+              <svg class="w-4 h-4 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+              </svg>
+            </a>
+          </div>
+
+          <p class="text-[11px] text-slate-400 italic">
+            Klik tombol di atas untuk membuka peta rute Google Maps resmi pesantren.
+          </p>
+        </div>
+
+      </div>
+
+      <!-- Copyright Bar -->
+      <div class="pt-8 border-t border-slate-800 text-center flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
+        <div>
+          &copy; 2026 Pesantren Pendidikan Islam Darul Abrar. Hak Cipta Dilindungi Undang-Undang.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script Logika Aplikasi Modular -->
+  <script type="module" src="/src/script.js"></script>
+
+</body>
+</html>

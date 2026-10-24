@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "judul": "Wisuda Akbar Tahfidz 30 Juz & Pelepasan Santri Angkatan Ke-28 Berlangsung Khidmat",
+    "kategori": "Tahfidz & Akademik",
+    "tanggal": "18 Oktober 2026",
+    "penulis": "Redaksi Darul Abrar",
+    "ringkasan": "Sebanyak 145 santri resmi diwisuda dan menyelesaikan hafalan 30 Juz Al-Qur'an bersanad, disaksikan ribuan wali santri serta para ulama terkemuka.",
+    "isi_lengkap": "Suasana haru dan penuh rasa syukur menyelimuti Gedung Pertemuan Utama Pesantren Pendidikan Islam Darul Abrar dalam gelaran Wisuda Akbar Tahfidz Al-Qur'an Angkatan Ke-28. Dari total wisudawan, 48 santri di antaranya berhasil menyelesaikan tasmi' 30 Juz sekali duduk dengan predikat Mumtaz Syaraf. Pimpinan pondok pesantren menyampaikan apresiasi mendalam kepada para asatidz dan orang tua yang tak henti membimbing generasi qur'ani.",
+    "gambar_url": "https://images.unsplash.com/photo-1609599006353-e629aaabfeae?q=80&w=1200&auto=format&fit=crop",
+    "baca_menit": "4 menit membaca"
+  },
+  {
+    "id": 2,
+    "judul": "Santri Darul Abrar Sabet Juara 1 Olimpiade Sains Nasional (OSN) Bidang Astronomi",
+    "kategori": "Prestasi Sains",
+    "tanggal": "12 Oktober 2026",
+    "penulis": "Biro Humas & Prestasi",
+    "ringkasan": "Membuktikan perpaduan sains dan ilmu falak, santri kelas XI berhasil mengungguli ratusan delegasi sekolah umum tingkat nasional.",
+    "isi_lengkap": "Ahmad Rayhan, santri Madrasah Aliyah Darul Abrar, sukses meraih medali emas pada ajang bergengsi Olimpiade Sains Nasional (OSN) bidang Astronomi dan Astrofisika. Berbekal pembelajaran rutin di Laboratorium Falakiyah Pesantren, Rayhan mampu menyelesaikan uji teori kosmologi dan pengamatan benda langit dengan akurasi tinggi. Raihan ini membuktikan santri pesantren mampu bersaing di garda terdepan sains internasional.",
+    "gambar_url": "https://images.unsplash.com/photo-1507668077129-56e32842fceb?q=80&w=1200&auto=format&fit=crop",
+    "baca_menit": "3 menit membaca"
+  },
+  {
+    "id": 3,
+    "judul": "Kunjungan Silaturahmi Guru Besar Universitas Al-Azhar Kairo Mesir ke Pesantren",
+    "kategori": "Kerjasama Global",
+    "tanggal": "05 Oktober 2026",
+    "penulis": "Tim Kerjasama Luar Negeri",
+    "ringkasan": "Pesantren menjalin kesepahaman beasiswa studi lanjut S1 dan penempatan dosen tamu penutur asli bahasa Arab langsung dari Kairo.",
+    "isi_lengkap": "Pesantren menyambut hangat kedatangan Prof. Dr. Syaikh Usamah Al-Azhari beserta rombongan dari Universitas Al-Azhar Kairo. Kunjungan akademik ini membahas penguatan kurikulum bahasa Arab, standarisasi muadalah ijazah pesantren di kancah internasional, serta pemberian kuota beasiswa khusus bagi santri berprestasi untuk melanjutkan studi ke fakultas Ushuluddin dan Syariah Islamiyah.",
+    "gambar_url": "https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?q=80&w=1200&auto=format&fit=crop",
+    "baca_menit": "5 menit membaca"
+  },
+  {
+    "id": 4,
+    "judul": "Semarak Porseni & Musabaqah Tilawatil Qur'an Antar Santri Se-Provinsi Jawa Barat",
+    "kategori": "Kegiatan Santri",
+    "tanggal": "28 September 2026",
+    "penulis": "Departemen Olahraga & Seni",
+    "ringkasan": "Lebih dari 40 pondok pesantren berpartisipasi dalam ajang perlombaan tilawah, kaligrafi, pidato 3 bahasa, dan kejuaraan silat santri.",
+    "isi_lengkap": "Gelaran akbar Porseni Santri tahun ini dipusatkan di kompleks kampus terpadu Darul Abrar. Selama 4 hari penuh, ratusan santri dari berbagai pondok pesantren unjuk kebolehan dalam kompetisi Musabaqah Qira'atil Kutub, debat bahasa Arab dan Inggris, turnamen futsal ukhuwah, serta kejuaraan Tapak Suci. Acara ini menjadi sarana silaturahmi sekaligus pemantik bakat muda santri.",
+    "gambar_url": "https://images.unsplash.com/photo-1574629810360-7efbbe195018?q=80&w=1200&auto=format&fit=crop",
+    "baca_menit": "3 menit membaca"
+  },
+  {
+    "id": 5,
+    "judul": "Pelatihan Jurnalistik Islami & Penyiaran Podcast Dakwah Multimedia Santri",
+    "kategori": "Literasi & Digital",
+    "tanggal": "21 September 2026",
+    "penulis": "Studio Media Pesantren",
+    "ringkasan": "Santri dibekali keterampilan produksi konten digital positif, sinematografi, teknik penulisan berita, dan etika komunikasi Islam.",
+    "isi_lengkap": "Menjawab tantangan revolusi digital, divisi media Darul Abrar menyelenggarakan workshop intensif penulisan jurnalistik dan podcast santri. Hadir sebagai narasumber praktisi media nasional dan podcaster dakwah terkemuka. Santri dilatih mengoperasikan kamera sinematik, software audio mixing, hingga strategi distribusi konten dakwah ramah di media sosial.",
+    "gambar_url": "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?q=80&w=1200&auto=format&fit=crop",
+    "baca_menit": "4 menit membaca"
+  },
+  {
+    "id": 6,
+    "judul": "Bakti Sosial & Santunan 500 Anak Yatim Piatu dalam Rangka Milad Ke-35 Pesantren",
+    "kategori": "Sosial & Dakwah",
+    "tanggal": "14 September 2026",
+    "penulis": "Lembaga Amil Zakat & Wakaf",
+    "ringkasan": "Wujud nyata kepedulian pesantren kepada masyarakat sekitar melalui penyaluran sembako, pengobatan gratis, dan paket pendidikan anak sholeh.",
+    "isi_lengkap": "Dalam rangkaian tasyakuran Milad Pesantren ke-35, Darul Abrar menyalurkan bantuan kepada 500 anak yatim dan keluarga prasejahtera di 5 desa sekitar pondok. Acara dirangkai dengan khitanan massal gratis bagi 75 anak, pemeriksaan kesehatan gratis di Poskestren, serta pembagian tas dan alat tulis sekolah untuk meringankan beban pendidikan warga.",
+    "gambar_url": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=1200&auto=format&fit=crop",
+    "baca_menit": "4 menit membaca"
+  },
+  {
+    "id": 7,
+    "judul": "Pelepasan 32 Santri Penerima Beasiswa Penuh Kuliah ke Universitas di Turki & Maroko",
+    "kategori": "Prestasi Alumni",
+    "tanggal": "02 September 2026",
+    "penulis": "Biro Hubungan Alumni",
+    "ringkasan": "Alumni pesantren kembali membanggakan dengan lolos seleksi beasiswa Turkiye Burslari dan Kementerian Wakaf Kerajaan Maroko.",
+    "isi_lengkap": "Pesantren kembali melepas 32 lulusan terbaik yang berhasil memenangkan beasiswa penuh jenjang sarjana di Universitas Istanbul, Sakarya University (Turki), dan Universitas Al-Qarawiyyin (Maroko). Para santri akan mendalami disiplin ilmu Tafsir Hadits, Arsitektur Islam, serta Hubungan Internasional dengan bekal fondasi akidah yang kokoh.",
+    "gambar_url": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1200&auto=format&fit=crop",
+    "baca_menit": "3 menit membaca"
+  }
+]

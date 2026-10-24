@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "Tapak Suci Putera Muhammadiyah",
+    "subtitle": "Seni Bela Diri Santri",
+    "category": "Bela Diri",
+    "desc": "Membina ketangkasan fisik, seni bela diri pencak silat khas pesantren, dan pembentukan akhlakul karimah serta mental tangguh santri yang disiplin.",
+    "img": "https://images.unsplash.com/photo-1555597673-b21d5c935865?q=80&w=1200&auto=format&fit=crop",
+    "schedule": "Senin & Kamis (16.00 - 17.30)",
+    "instructor": "Ustadz Hamdan & Pendekar Satria"
+  },
+  {
+    "id": 2,
+    "title": "Gerakan Pramuka Santri",
+    "subtitle": "Kepanduan & Kemandirian",
+    "category": "Kepanduan",
+    "desc": "Mengasah kecakapan hidup (life skills), teknik tali-temali, pionering menara pandang, penjelajahan alam bebas, dan kepemimpinan berwawasan kebangsaan.",
+    "img": "https://images.unsplash.com/photo-1510312305653-8ed496efae75?q=80&w=1200&auto=format&fit=crop",
+    "schedule": "Jumat Sore (14.30 - 17.00)",
+    "instructor": "Kak Syarif & Pembina Gudep"
+  },
+  {
+    "id": 3,
+    "title": "Seni Kaligrafi Islam (Khat)",
+    "subtitle": "Seni Estetika Al-Qur'an",
+    "category": "Seni Kaligrafi",
+    "desc": "Pelatihan seni tulis indah ayat suci Al-Qur'an dengan pena bambu tradisional (handam) dan tinta zafaran (Khat Naskhi, Tsuluts, Riq'ah), melatih rasa seni dan keheningan hati.",
+    "img": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?q=80&w=1200&auto=format&fit=crop",
+    "schedule": "Rabu Malam (20.00 - 21.30)",
+    "instructor": "Ustadz Khatib Al-Banjari"
+  },
+  {
+    "id": 4,
+    "title": "Futsal & Liga Santri",
+    "subtitle": "Kebugaran & Ukhuwah Santri",
+    "category": "Olahraga",
+    "desc": "Mengembangkan bakat olahraga bola santri melalui latihan teknik dasar, stamina, taktik permainan tim, serta turnamen persahabatan antar asrama.",
+    "img": "https://images.unsplash.com/photo-1574629810360-7efbbe195018?q=80&w=1200&auto=format&fit=crop",
+    "schedule": "Selasa & Sabtu (16.00 - 17.30)",
+    "instructor": "Coach Faisal (Dept. Olahraga)"
+  },
+  {
+    "id": 5,
+    "title": "Multimedia & Studio Dakwah",
+    "subtitle": "Studio Kreatif Dakwah Digital",
+    "category": "Teknologi",
+    "desc": "Membekali santri keterampilan era digital dalam produksi podcast islami, sinematografi video dakwah, dokumentasi fotografi, dan desain publikasi kreatif.",
+    "img": "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?q=80&w=1200&auto=format&fit=crop",
+    "schedule": "Ahad Pagi (08.30 - 11.30)",
+    "instructor": "Ustadz Rian & Tim Media"
+  },
+  {
+    "id": 6,
+    "title": "Muhadharah (Public Speaking)",
+    "subtitle": "Latihan Khutbah & Retorika",
+    "category": "Public Speaking",
+    "desc": "Latihan orasi dakwah, khutbah Jumat, kultum, dan pidato dalam 3 bahasa (Arab, Inggris, Indonesia) guna mencetak dai yang fasih dan berwibawa.",
+    "img": "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?q=80&w=1200&auto=format&fit=crop",
+    "schedule": "Kamis Malam (20.00 - 22.00)",
+    "instructor": "Ustadz Dr. Burhanuddin, M.A."
+  },
+  {
+    "id": 7,
+    "title": "Bahasa Arab (Muhadatsah)",
+    "subtitle": "Bi'ah Lughawiyyah & Nahwu",
+    "category": "Kebahasaan",
+    "desc": "Menghidupkan lingkungan bi'ah lughawiyyah santri lewat percakapan bahasa Arab fusha sehari-hari, debat gramatika nahwu sharaf, dan kajian kutub.",
+    "img": "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?q=80&w=1200&auto=format&fit=crop",
+    "schedule": "Ba'da Shubuh & Ashar",
+    "instructor": "Syaikh Musthafa & Ustadz Farhan"
+  },
+  {
+    "id": 8,
+    "title": "English Club & Debate Forum",
+    "subtitle": "Daily Fluency & English Debate",
+    "category": "Kebahasaan",
+    "desc": "Mengasah kecakapan bahasa Inggris internasional santri melalui english debate forum, storytelling, spelling bee, serta bimbingan persiapan beasiswa ke luar negeri.",
+    "img": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1200&auto=format&fit=crop",
+    "schedule": "Ba'da Maghrib & Ahad Siang",
+    "instructor": "Ustadzah Nadia & Tim BEC"
+  }
+]
