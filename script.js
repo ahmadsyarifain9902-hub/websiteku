@@ -22,7 +22,8 @@ async function fetchPesantrenData(fileName, fallbackEmbeddedData) {
     `./data/${fileName}`,
     `/data/${fileName}`,
     `./src/data/${fileName}`,
-    `/src/data/${fileName}`
+    `/src/data/${fileName}`,
+    `src/data/${fileName}`
   ];
 
   for (const url of urls) {
